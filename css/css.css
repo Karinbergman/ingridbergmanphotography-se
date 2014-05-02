@@ -63,10 +63,11 @@ p {
 }
 .page-header__logo a {
 	display: block;
-	height: 100px;
+	height: 200px;
+	width: 200px;
 	text-indent: 300px;
 	overflow: hidden;
-	background:url(../images/newlogo.jpg);
+	background:url(../images/newlogo.png);
 }
 .page-header__nav {
 	padding-top: 81px;
@@ -78,7 +79,7 @@ p {
 	text-transform: uppercase;
 	letter-spacing: 3px;
 	font-weight: 400;
-	font-size: 1.5rem;
+	font-size: 2rem;
 	margin-top: 10px;
 	padding: 0 5px;
 }
@@ -93,7 +94,7 @@ p {
 
 /* News */
 #news {
-	margin-top: 20px;
+	margin-top: 60px;
 	height: 840px;
 	background: #EDEDED;
 }
