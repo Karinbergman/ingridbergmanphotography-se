@@ -1,0 +1,144 @@
+/* 
+	Ingrid Bergman
+
+*/
+
+/* Reset */
+* {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+}
+
+/* Layout */
+
+html {
+	font-size: 20px;
+	line-height: 1.5;
+	font-family: 'Open Sans Condensed', arial, sans-serif;
+	background: #EDEDED;
+}
+
+.inner {
+	margin: 0 auto;
+	width: 85%;
+	max-width: 80rem;
+}
+
+.image-fit {
+	max-width: 100%;
+}
+
+/* Header */
+.page-header {
+	padding: 1px 0;
+}
+
+/*Clearfix */
+.clear::after {
+	display: block;
+	content:"";
+	clear:both;
+}
+
+/* Typography */
+h1 {
+	display: block;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	font-weight: 400;
+}
+p {
+	font-size: 1rem;
+	padding: 3px 0;
+}
+
+/* Navigation */
+.page-header__logo {
+	float: left;
+	width: 80px;
+	height: 100px;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.page-header__logo a {
+	display: block;
+	height: 100px;
+	text-indent: 300px;
+	overflow: hidden;
+	background:url(../images/newlogo.jpg);
+}
+.page-header__nav {
+	padding-top: 81px;
+	text-align: center;
+}
+.page-header__nav li {
+	display: inline;
+	list-style-type: none;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-weight: 400;
+	font-size: 1.5rem;
+	margin-top: 10px;
+	padding: 0 5px;
+}
+.page-header nav a {
+	text-decoration: none;
+	color: black;
+}
+.page-header nav a:hover {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+}
+
+/* News */
+#news {
+	margin-top: 20px;
+	height: 840px;
+	background: #EDEDED;
+}
+.col-4 {
+    float: left;
+    padding: .5% .5%;
+    width: 48.5%;
+    padding-top: 30px;
+}
+.col-4 img {
+    float: left;
+    padding: 0 1%;
+    width: 100%;
+    height: auto;
+}
+/* Bio */
+/* Education/Exhibitions */
+.col-3 {
+    float: left;
+    padding: .8% .8%;
+    width: 31.5%;
+    margin-top: 50px;
+}
+.col-3 img {
+    float: left;
+    padding-top: 3%;
+    width: 100%;
+    height: auto;
+}
+/* Make columns 100% on small screens */
+@media screen and (max-width: 800px) {
+    .col-4 {
+        float: none;
+        width: auto;
+    }
+    .col-3 {
+        float: none;
+        width: auto;
+    }
+}
+#bio {
+	height: 400px;
+	background: #ffdb99;
+}
+#cv {
+	height: 320px;
+	background: #EDEDED;
+}
